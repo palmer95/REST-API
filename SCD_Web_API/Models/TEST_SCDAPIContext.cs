@@ -23,7 +23,7 @@ namespace SCD_Web_API.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=ENC-SQL-02;Database=TEST_SCD-API;User=Test_API_Read;Password=Encore03;");
+                optionsBuilder.UseSqlServer("");
             }
         }
 
