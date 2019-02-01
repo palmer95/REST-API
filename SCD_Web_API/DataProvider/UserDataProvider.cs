@@ -11,7 +11,8 @@ namespace SCD_Web_API.DataProvider
 {
     public class UserDataProvider : IUserDataProvider
     {
-        private readonly string connectionString = "Server=Enc-SQL-02;Database=Test_SCD-API;User=Test_API_Read;Password=Encore03;";
+        # Removed connection screen for security purposes
+        private readonly string connectionString = ""
         private SqlConnection sqlConnection;
 
         public async Task AddPerson(People person)
