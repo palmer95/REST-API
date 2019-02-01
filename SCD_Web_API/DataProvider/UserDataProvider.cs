@@ -11,7 +11,7 @@ namespace SCD_Web_API.DataProvider
 {
     public class UserDataProvider : IUserDataProvider
     {
-        # Removed connection screen for security purposes
+        // Removed connection screen for security purposes
         private readonly string connectionString = ""
         private SqlConnection sqlConnection;
 
